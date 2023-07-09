@@ -111,10 +111,13 @@ input {
 /* transition style form end */
 
 /* style media start */
-@media screen and (min-width:300px) {
+@media screen and (min-width:240px) {
     .wrapper-form {
-        width: 296px;
+        width: 240px;
     }
+    #btn-lgn , #btn-rst , .lbl-chek {
+        font-size:.8rem;
+    } 
 }
 @media screen and (min-width:560px) {
     .wrapper-form {
