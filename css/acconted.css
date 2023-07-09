@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'koodak';
+    src: url('../fonts/KoodakBold.eot')format('eot'), url('../fonts/KoodakBold.ttf')format('ttf'), url('../fonts/KoodakBold.woff')format('woof');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'koodak';
+    font-weight: 600;
+}
+
+#acconted {
+    background-image: url('../images/root/back3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 8rem 0;
+}
+
+.wrapper-form {
+    position: relative;
+    background-color: #e6e6e6;
+    width: 320px;
+    height: 30rem;
+    box-shadow: 0 0 0.5rem #0919ff;
+    overflow: hidden;
+}
+
+.form-title {
+    background-color: #fff;
+    position: relative;
+    height: auto;
+}
+
+.input-group-icons .al {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.input-group-icons .al:nth-child(1) {
+    color: #df2d8f !important;
+}
+
+.input-group-icons .al:nth-child(2) {
+    color: #644bf1 !important;
+}
+
+.input-group-icons .al:nth-child(3) {
+    color: #353333 !important;
+}
+
+button,
+input {
+    font-family: 'koodak' !important;
+    font-weight: 600 !important;
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+.input-box {
+    border-bottom: 3px solid #00828b !important;
+}
+.form-control:focus{
+    border: 0 !important;
+}
+
+.input-box:focus {
+    box-shadow: 0 0 0.5rem #00eeff !important;
+}
+
+.form-title span {
+    position: absolute;
+    background-color: #43d1c5;
+    right: 0;
+    transition: all 0.3s ease;
+}
+
+#login,
+#regester {
+    transition: all 0.5s ease;
+}
+
+#regester {
+    transform: translate(0rem, -100%);
+}
+
+#login {
+    transform: translate(-200%, 0rem);
+}
+
+/* transition style form start */
+.active1 {
+    transform: translate(-110%);
+}
+
+.active2 {
+    transform: translate(0rem, 0rem) !important;
+}
+
+.active3 {
+    transform: translate(200rem, -100%) !important;
+}
+
+/* transition style form end */
+
+/* style media start */
+@media screen and (max-width:320px) {
+    .wrapper-form {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:320px) {
+    .wrapper-form {
+        width: 400px;
+    }
+}
+
+/* style media end */
