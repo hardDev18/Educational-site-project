@@ -111,6 +111,10 @@ input {
 /* transition style form end */
 
 /* style media start */
+@media screen and (max-width:260px) {
+    .wrapper-form {
+        width: 100%;
+    }
 @media screen and (min-width:260px) {
     .wrapper-form {
         width: 260px;
