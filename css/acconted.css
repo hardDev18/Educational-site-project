@@ -28,7 +28,7 @@ html , body{
 .wrapper-form {
     position: relative;
     background-color: #e6e6e6;
-    height: 27rem !important;
+    height: 28.5rem !important;
     box-shadow: 0 0 0.5rem #0919ff;
     overflow: hidden;
 }
@@ -113,7 +113,7 @@ input {
 /* style media start */
 @media screen and (min-width:300px) {
     .wrapper-form {
-        width: 280px;
+        width: 296px;
     }
 }
 @media screen and (min-width:560px) {
