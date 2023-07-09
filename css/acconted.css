@@ -111,11 +111,12 @@ input {
 /* transition style form end */
 
 /* style media start */
-@media screen and (min-width:240px) {
+@media screen and (min-width:260px) {
     .wrapper-form {
-        width: 240px;
+        width: 260px;
     }
-    #btn-lgn , #btn-rst , .lbl-chek {
+
+      #btn-lgn , #btn-rst ,  .lbl-chek {
         font-size:.8rem;
     } 
 }
