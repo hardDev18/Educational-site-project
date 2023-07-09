@@ -4,7 +4,9 @@
     font-weight: normal;
     font-style: normal;
 }
-
+html , body{
+    overflow-x: hidden !important; 
+}
 * {
     padding: 0;
     margin: 0;
@@ -110,15 +112,9 @@ input {
 /* transition style form end */
 
 /* style media start */
-@media screen and (max-width:320px) {
-    .wrapper-form {
-        width: 300px;
-    }
-}
-
 @media screen and (min-width:320px) {
     .wrapper-form {
-        width: 400px;
+        width: 300px;
     }
 }
 
